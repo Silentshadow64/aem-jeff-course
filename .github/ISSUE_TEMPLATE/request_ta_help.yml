@@ -1,0 +1,33 @@
+name: Request TA Help
+description: Ask for help during the week (debugging, setup, hints)
+title: "TA Help: <Your Name> — Week <##>"
+labels: ["TA-Help"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Your name
+      placeholder: "Jeff / Mattie / Melanie"
+    validations:
+      required: true
+  - type: input
+    id: week
+    attributes:
+      label: Week number
+      placeholder: "01"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you stuck on?
+      description: Describe the problem in detail, paste error messages, and list what you tried.
+      placeholder: "Describe the issue..."
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or logs
+      description: Drag and drop images or paste logs.
+      placeholder: "Attach images or logs"
