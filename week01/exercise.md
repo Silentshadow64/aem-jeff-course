@@ -1,9 +1,5 @@
 # Week 01 — Exercise
 
-Follow these steps carefully. Add screenshots to `screenshots/` and link them here.
+Follow these steps carefully. Add screenshots to `screenshots/` and link them here. week01/screenshots/
 
-1. Describe what you built or changed this week based on the theme: **Setup • WordPress + GitHub Basics (Author mindset)**.
-2. If this week is authoring-focused, create or modify pages in LocalWP that reflect the lesson.
-3. If this week is front-end-focused, update your `wp-content/plugins/aem-blocks` plugin (or your chosen theme) with the required code.
-4. Document your steps in this file. Include before/after screenshots.
-5. Save this file, commit, and push your branch.
+This week for exercises, created an about us section in WordPress using the Gutenberg blocks. This included learning about the heading block, the image block, the tile block, and the paragraph block. Added content to each block as well as published the pages, giving myself a knowledge of how the system works and how blocks function.
