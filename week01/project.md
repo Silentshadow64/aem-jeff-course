@@ -1,14 +1,16 @@
-# Week 01 — Project Milestone
+# Week 01 — Project Milestone: Environment Setup
 
-Environment Summary: 
-Windows, 6.8.3, v22.20.0
+## 1. Environment Summary
 
+ - Operating System: Windows 11
+ - LocalWP Version: 8.2.27
+ - WordPress Version: 6.8.3
+ - Node.js Version: v22.20.0
+ - Site Name: aem-lab
+ - GitHub Repository: [https://github.com/Silentshadow64/aem-jeff-course](https://github.com/Silentshadow64/aem-jeff-course)
 
-![Local WP Running](screenshots/week01_project_localwp-running_jeff.png)
-![WP Admin Dashboard](screenshots/week01_project_wpadmin-dashboard_jeff.png)
-![GitHub Commit History](screenshots/week01_project_github-commit_jeff.png)
+## 2. Folder Structure
 
-Folder Structure:
 C:.
 |   .gitignore
 |   folder-structure.txt
@@ -304,6 +306,25 @@ C:.
     |   
     \---screenshots
             .gitkeep
-            
+ 
 
-	This was the folder structure that I ended up with, as well as changed some minor names on the main folder. I had a few issues with the initial set up and committing to GitHub and having them sync between remote and desktop correctly but overall I was able to refresh my repositories and get everything setup and synced they way that I needed. 
+## 3. Verification Screenshots
+
+### LocalWP Running
+![Local WP Running](screenshots/week01_project_localwp-running_jeff.png)
+
+### WordPress Admin Dashboard
+![WP Admin Dashboard](screenshots/week01_project_wpadmin-dashboard_jeff.png)
+
+### GitHub Commit History
+![GitHub Commit History](screenshots/week01_project_github-commit_jeff.png)
+
+### Folder Structure (Optional)
+![Folder Structure](screenshots/week01_project_folder-structure_jeff.png)
+
+## 4. Reflection        
+
+Setting up LocalWP and GitHub went smoothly after adjusting my PATH variables. 
+Initially, GitHub Desktop could not detect the repo folder; I fixed this by moving the unzipped course files into the cloned directory.
+LocalWP started correctly, and I was able to log into WordPress Admin using admin/Admin123!.
+Next time I'll pay closer attention to screenshot naming conventions to save cleanup time before grading.
