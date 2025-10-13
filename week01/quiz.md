@@ -25,7 +25,7 @@
 ---
 
 ## Your Answers
-1) A
+1) B
 2) B
 3) B
 4) This week's work helps my operate as an AEM author and/or Front-End Developer because the setup of these functions very similar to an AEM environment allowing me to gain a higher proficiency with AEM and be able to function within the environment once I am able to get into the system in both areas. 
