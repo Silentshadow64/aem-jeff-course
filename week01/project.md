@@ -310,7 +310,7 @@ C:.
 
 ## 3. Verification Screenshots
 
-### Local MP Running
+### LocalWP Running
 ![Local WP Running](screenshots/week01_project_localwp-running_jeff.png)
 
 ### WordPress Admin Dashboard
@@ -320,7 +320,7 @@ C:.
 ![GitHub Commit History](screenshots/week01_project_github-commit_jeff.png)
 
 ### Folder Structure (Optional)
-![Folder Structure](week01_project_folder-structure_jeff.png)
+![Folder Structure](screenshots/week01_project_folder-structure_jeff.png)
 
 ## 4. Reflection        
 
