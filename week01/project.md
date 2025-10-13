@@ -327,4 +327,4 @@ C:.
 Setting up LocalWP and GitHub went smoothly after adjusting my PATH variables. 
 Initially, GitHub Desktop could not detect the repo folder; I fixed this by moving the unzipped course files into the cloned directory.
 LocalWP started correctly, and I was able to log into WordPress Admin using admin/Admin123!.
-Next time I'll pay closer attention to screenshot naming conventions to save cleanup time before grading.
+Next time I'll pay closer attention to screenshot naming conventions to save cleanup time before grading.  
