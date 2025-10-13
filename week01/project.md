@@ -306,4 +306,4 @@ C:.
             .gitkeep
             
 
-	This was the folder structure that I ended up with, as well as changed some minor names on the main folder. I had a few issues with the initial set up and committing to GitHub and having them sync between remote and desktop correctly but overall I was able to refresh my repositories and get everything setup and synced they way that I needed.
+	This was the folder structure that I ended up with, as well as changed some minor names on the main folder. I had a few issues with the initial set up and committing to GitHub and having them sync between remote and desktop correctly but overall I was able to refresh my repositories and get everything setup and synced they way that I needed. 
