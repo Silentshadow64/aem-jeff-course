@@ -3,4 +3,4 @@
 ![About Us Editor](screenshots/week01_exercise_aboutus-editor_jeff.png)
 ![About Us Editor](screenshots/week01_exercise_aboutus-published_jeff.png)
 
-This week for exercises, created an about us section in WordPress using the Gutenberg blocks. This included learning about the heading block, the image block, and the paragraph block. Added content to each block as well and published the pages, giving myself a knowledge of how the system works and how blocks function.
+This week for exercises, created an about us section in WordPress using the Gutenberg blocks. This included learning about the heading block, the image block, and the paragraph block. Added content to each block as well and published the pages, giving myself a knowledge of how the system works and how blocks function. 
