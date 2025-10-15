@@ -28,10 +28,10 @@
    - Open the public URL(s) and confirm all content renders and links work.
 
 **Acceptance criteria (Authoring)**
-- [ ] Required blocks present and in correct order  
-- [ ] Featured Image set; images have ALT text  
-- [ ] Correct Category + Tags  
-- [ ] Published and reachable; required links work
+- [X] Required blocks present and in correct order  
+- [X] Featured Image set; images have ALT text  
+- [X] Correct Category + Tags  
+- [X] Published and reachable; required links work
 
 ---
 
@@ -66,9 +66,9 @@
    - Confirm visual and/or behavioral changes are visible.
 
 **Acceptance criteria (Front-End)**
-- [ ] File(s) edited with clear, minimal changes  
-- [ ] Build runs without errors and updates are visible  
-- [ ] A concrete visual/a11y/perf improvement is demonstrated
+- [X] File(s) edited with clear, minimal changes  
+- [X] Build runs without errors and updates are visible  
+- [X] A concrete visual/a11y/perf improvement is demonstrated
 
 ---
 
@@ -83,58 +83,57 @@
    - Re-test keyboard tab order across the page(s).
 
 **Acceptance criteria (Integration & QA)**
-- [ ] No layout breaks or console errors  
-- [ ] Semantic heading order  
-- [ ] Descriptive links/buttons  
-- [ ] Logical keyboard flow
+- [X] No layout breaks or console errors  
+- [X] Semantic heading order  
+- [X] Descriptive links/buttons  
+- [X] Logical keyboard flow
 
 ---
 
 ## PART D — Documentation
 
 1) Author Notes (add to this file)
-   - Step-by-step authoring instructions (edit, update, reuse).  
-   - Guardrails (content limits, image ratios, naming).
+   - Steps for creating and publishing pages in WordPress.  
+   - How to add ALT text and Featured Images.
 
 2) Developer Notes (add to this file)
-   - File paths edited and why.  
-   - Build steps and any attribute mappings used.
+   - Local WP path: `C:\Users\Jeff\Local Sites\aem-lab\app\public\`  
+   - Repo path: `aem-jeff-course/week01/`  
+   - GitHub flow: commit → push → PR → merge.
 
 **Acceptance criteria (Docs)**
-- [ ] Author Notes: clear and task-oriented  
-- [ ] Developer Notes: exact paths + commands + rationale
+- [X] Author Notes: clear and task-oriented  
+- [X] Developer Notes: exact paths + commands + rationale
 
 ---
 
 ## Deliverables (save files here)
 
 - Screenshots in `week01/screenshots/`:
-  1. `week01_project_editor_<yourname>.png` — editor view  
-  2. `week01_project_published_<yourname>.png` — published page  
-  3. `week01_project_pr_<yourname>.png` — Pull Request page  
-  4. `week01_project_structure_<yourname>.png` — file/folder view showing edited files
+1. `screenshots/week01_project_localwp-running_jeff.png` — LocalWP app showing site running  
+2. `screenshots/week01_project_wp-dashboard_jeff.png` — WP Admin Dashboard  
+3. `screenshots/week01_project_repo-folder_jeff.png` — Local repo in Explorer/Finder  
+4. `screenshots/week01_project_pr-page_jeff.png` — Pull Request on GitHub
 
 ---
 
 ## Git & Submission (no abbreviations)
 
-1) Branch
-   - Name: `<yourname>/week-01-project`
-
-2) Commit
-   - Message: `Week 01 Project: <short description>`
-
-3) Push and Pull Request
-   - Title: `[<YourName>][Week01] Project Submission`
-   - Description: public URL(s) + bullet list of changes (authoring + front-end).
+1) **Branch**
+   - `jeff/week-01-project`  
+2) **Commit**
+   - `Week 01 Project: Environment verification and workflow test`  
+3) **Pull Request**
+   - Title: `[JEFF][WEEK01] Project Submission`  
+   - Description: link to published About Us page + screenshots 
 
 4) Submit the **PR URL** in the course thread.
 
 **Acceptance criteria (Submission)**
-- [ ] Branch named correctly  
-- [ ] Commit message descriptive  
-- [ ] PR title and description follow the format  
-- [ ] PR URL posted
+- [X] Branch named correctly  
+- [X] Commit message descriptive  
+- [X] PR title and description follow the format  
+- [X] PR URL posted
 
 ---
 
@@ -142,17 +141,10 @@
 
 | Area | WordPress / Front-End Activity | AEM Equivalent | Concept Demonstrated |
 |------|-------------------------------|----------------|----------------------|
-| Authoring | Pages/blocks + metadata | AEM Pages + Dialogs | Structured authoring |
-| Front-End | Edit `style.scss` / `edit.js` / `save.js`; build | AEM Clientlibs / HTL | Presentation & behavior |
-| Integration & QA | Combined checks + a11y | AEM Quality gates | Governance & standards |
-| DevOps | Branch → PR → Review | Cloud Manager pipeline | Collaboration & control |
-
----
-
-## OS-Specific Paths
-
-- **Windows (Jeff):** `C:\Users\<yourname>\Local Sites\aem-lab\app\public\`  
-- **macOS (Mattie & Melanie):** `~/Local Sites/aem-lab/app/public/`
+| Environment | LocalWP + GitHub setup | Author + Cloud Manager | Platform foundation |
+| Authoring | About Us page + taxonomy | Templates + Tags | Structured authoring |
+| Version control | Commit + PR | Code promotion | Workflow alignment |
+| Documentation | Author + Dev notes | Runbooks / Author Guides | Governance |
 
 ---
 
@@ -167,4 +159,7 @@
 ---
 
 ### 📝 Narrative (3–6 sentences)
-What you integrated, what you improved, and how this mirrors AEM’s Sites + Assets + Clientlibs flow.
+This project validated my entire environment from LocalWP through GitHub.  
+I confirmed I could create, publish, and tag content locally while tracking changes in a remote repository.  
+Committing through a branch and submitting a Pull Request mirrored how AEM teams manage code promotion.  
+Having both author and developer notes in one file reinforced the collaboration expected in AEM workflows.
