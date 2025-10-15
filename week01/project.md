@@ -1,330 +1,170 @@
-# Week 01 — Project Milestone: Environment Setup
+# Week 01 — Project (Author + Front-End)
 
-## 1. Environment Summary
+**Theme:** Setup • WordPress + GitHub Foundations  
+*Goal:* Produce a single, reviewable outcome that integrates this week’s authoring and front-end work. Follow the steps exactly and submit via Pull Request.
 
- - Operating System: Windows 11
- - LocalWP Version: 8.2.27
- - WordPress Version: 6.8.3
- - Node.js Version: v22.20.0
- - Site Name: aem-lab
- - GitHub Repository: [https://github.com/Silentshadow64/aem-jeff-course](https://github.com/Silentshadow64/aem-jeff-course)
+---
 
-## 2. Folder Structure
+## Prerequisites
+- You completed `week01/exercise.md` on a feature branch.
+- Your LocalWP site is running and reachable.
 
-C:.
-|   .gitignore
-|   folder-structure.txt
-|   PROFESSOR_GUIDE.md
-|   README.md
-|   TA_GUIDE.md
-|   
-+---.github
-|   \---ISSUE_TEMPLATE
-|           ready_for_grading.yml
-|           request_ta_help.yml
-|           
-+---grading
-|       gradebook.xlsx
-|       
-+---projects
-|   \---capstone
-|           README.md
-|           
-+---setup
-|       screenshot_naming_cheatsheet.pdf
-|       Setup_Guide.md
-|       
-+---tracks
-|       creative.md
-|       technical.md
-|       
-+---week01
-|   |   exercise.md
-|   |   project.md
-|   |   quiz.md
-|   |   README.md
-|   |   rubric.md
-|   |   submission.md
-|   |   
-|   \---screenshots
-|           .gitkeep
-|           week01_exercise_aboutus-editor_jeff.png
-|           week01_exercise_aboutus-published_jeff.png
-|           week01_project_github-commit_jeff.png
-|           week01_project_localwp-running_jeff.png
-|           week01_project_wpadmin-dashboard_jeff.png
-|           
-+---week02
-|   |   exercise.md
-|   |   project.md
-|   |   quiz.md
-|   |   README.md
-|   |   rubric.md
-|   |   submission.md
-|   |   
-|   \---screenshots
-|           .gitkeep
-|           
-+---week03
-|   |   exercise.md
-|   |   project.md
-|   |   quiz.md
-|   |   README.md
-|   |   rubric.md
-|   |   submission.md
-|   |   
-|   \---screenshots
-|           .gitkeep
-|           
-+---week04
-|   |   exercise.md
-|   |   project.md
-|   |   quiz.md
-|   |   README.md
-|   |   rubric.md
-|   |   submission.md
-|   |   
-|   \---screenshots
-|           .gitkeep
-|           
-+---week05
-|   |   exercise.md
-|   |   project.md
-|   |   quiz.md
-|   |   README.md
-|   |   rubric.md
-|   |   submission.md
-|   |   
-|   \---screenshots
-|           .gitkeep
-|           
-+---week06
-|   |   exercise.md
-|   |   project.md
-|   |   quiz.md
-|   |   README.md
-|   |   rubric.md
-|   |   submission.md
-|   |   
-|   \---screenshots
-|           .gitkeep
-|           
-+---week07
-|   |   exercise.md
-|   |   project.md
-|   |   quiz.md
-|   |   README.md
-|   |   rubric.md
-|   |   submission.md
-|   |   
-|   \---screenshots
-|           .gitkeep
-|           
-+---week08
-|   |   exercise.md
-|   |   project.md
-|   |   quiz.md
-|   |   README.md
-|   |   rubric.md
-|   |   submission.md
-|   |   
-|   \---screenshots
-|           .gitkeep
-|           
-+---week09
-|   |   exercise.md
-|   |   project.md
-|   |   quiz.md
-|   |   README.md
-|   |   rubric.md
-|   |   submission.md
-|   |   
-|   \---screenshots
-|           .gitkeep
-|           
-+---week10
-|   |   exercise.md
-|   |   project.md
-|   |   quiz.md
-|   |   README.md
-|   |   rubric.md
-|   |   submission.md
-|   |   
-|   \---screenshots
-|           .gitkeep
-|           
-+---week11
-|   |   exercise.md
-|   |   project.md
-|   |   quiz.md
-|   |   README.md
-|   |   rubric.md
-|   |   submission.md
-|   |   
-|   \---screenshots
-|           .gitkeep
-|           
-+---week12
-|   |   exercise.md
-|   |   project.md
-|   |   quiz.md
-|   |   README.md
-|   |   rubric.md
-|   |   submission.md
-|   |   
-|   \---screenshots
-|           .gitkeep
-|           
-+---week13
-|   |   exercise.md
-|   |   project.md
-|   |   quiz.md
-|   |   README.md
-|   |   rubric.md
-|   |   submission.md
-|   |   
-|   \---screenshots
-|           .gitkeep
-|           
-+---week14
-|   |   exercise.md
-|   |   project.md
-|   |   quiz.md
-|   |   README.md
-|   |   rubric.md
-|   |   submission.md
-|   |   
-|   \---screenshots
-|           .gitkeep
-|           
-+---week15
-|   |   exercise.md
-|   |   project.md
-|   |   quiz.md
-|   |   README.md
-|   |   rubric.md
-|   |   submission.md
-|   |   
-|   \---screenshots
-|           .gitkeep
-|           
-+---week16
-|   |   exercise.md
-|   |   project.md
-|   |   quiz.md
-|   |   README.md
-|   |   rubric.md
-|   |   submission.md
-|   |   
-|   \---screenshots
-|           .gitkeep
-|           
-+---week17
-|   |   exercise.md
-|   |   project.md
-|   |   quiz.md
-|   |   README.md
-|   |   rubric.md
-|   |   submission.md
-|   |   
-|   \---screenshots
-|           .gitkeep
-|           
-+---week18
-|   |   exercise.md
-|   |   project.md
-|   |   quiz.md
-|   |   README.md
-|   |   rubric.md
-|   |   submission.md
-|   |   
-|   \---screenshots
-|           .gitkeep
-|           
-+---week19
-|   |   exercise.md
-|   |   project.md
-|   |   quiz.md
-|   |   README.md
-|   |   rubric.md
-|   |   submission.md
-|   |   
-|   \---screenshots
-|           .gitkeep
-|           
-+---week20
-|   |   exercise.md
-|   |   project.md
-|   |   quiz.md
-|   |   README.md
-|   |   rubric.md
-|   |   submission.md
-|   |   
-|   \---screenshots
-|           .gitkeep
-|           
-+---week21
-|   |   exercise.md
-|   |   project.md
-|   |   quiz.md
-|   |   README.md
-|   |   rubric.md
-|   |   submission.md
-|   |   
-|   \---screenshots
-|           .gitkeep
-|           
-+---week22
-|   |   exercise.md
-|   |   project.md
-|   |   quiz.md
-|   |   README.md
-|   |   rubric.md
-|   |   submission.md
-|   |   
-|   \---screenshots
-|           .gitkeep
-|           
-+---week23
-|   |   exercise.md
-|   |   project.md
-|   |   quiz.md
-|   |   README.md
-|   |   rubric.md
-|   |   submission.md
-|   |   
-|   \---screenshots
-|           .gitkeep
-|           
-\---week24
-    |   exercise.md
-    |   project.md
-    |   quiz.md
-    |   README.md
-    |   rubric.md
-    |   submission.md
-    |   
-    \---screenshots
-            .gitkeep
- 
+---
 
-## 3. Verification Screenshots
+## PART A — Authoring (do all steps)
 
-### LocalWP Running
-![Local WP Running](screenshots/week01_project_localwp-running_jeff.png)
+1) Build the target page(s)
+   - Target: **About Us** page + one sample **Post** (with Tags/Categories).
+   - Insert required blocks exactly as specified in `week01/exercise.md`.
+   - Save as **Draft** first.
 
-### WordPress Admin Dashboard
-![WP Admin Dashboard](screenshots/week01_project_wpadmin-dashboard_jeff.png)
+2) Apply metadata & taxonomy
+   - Set **Featured Image** where required.
+   - For each image on the page(s), add **ALT text**.
+   - Ensure **Category** and **Tags** match this week’s instructions.
 
-### GitHub Commit History
-![GitHub Commit History](screenshots/week01_project_github-commit_jeff.png)
+3) Publish & verify
+   - Click **Publish** → **Publish**.
+   - Open the public URL(s) and confirm all content renders and links work.
 
-### Folder Structure (Optional)
-![Folder Structure](screenshots/week01_project_folder-structure_jeff.png)
+**Acceptance criteria (Authoring)**
+- [ ] Required blocks present and in correct order  
+- [ ] Featured Image set; images have ALT text  
+- [ ] Correct Category + Tags  
+- [ ] Published and reachable; required links work
 
-## 4. Reflection        
+---
 
-Setting up LocalWP and GitHub went smoothly after adjusting my PATH variables. 
-Initially, GitHub Desktop could not detect the repo folder; I fixed this by moving the unzipped course files into the cloned directory.
-LocalWP started correctly, and I was able to log into WordPress Admin using admin/Admin123!.
-Next time I'll pay closer attention to screenshot naming conventions to save cleanup time before grading.  
+## PART B — Front-End (do all steps)
+
+1) Locate and adjust files
+   - Open folder: Theme or plugin folder where your changes live (document exact path).
+   - Edit files as needed (e.g., `style.scss`, `edit.js`, `save.js`) to support the project goal.
+
+2) Build assets (if applicable)
+   - **Windows (Jeff)**
+     ```bat
+     cd C:\Users\<yourname>\Local Sites\aem-lab\app\public\wp-content
+     ```
+     (cd further into your theme/plugin; then:)
+     ```
+     npm install
+     npm run build
+     ```
+   - **macOS (Mattie & Melanie)**
+     ```bash
+     cd ~/Local\ Sites/aem-lab/app/public/wp-content
+     ```
+     (cd further into your theme/plugin; then:)
+     ```
+     npm install
+     npm run build
+     ```
+
+3) Validate changes
+   - Hard-refresh the page(s) (Windows: Ctrl+F5; macOS: Cmd+Shift+R).
+   - Confirm visual and/or behavioral changes are visible.
+
+**Acceptance criteria (Front-End)**
+- [ ] File(s) edited with clear, minimal changes  
+- [ ] Build runs without errors and updates are visible  
+- [ ] A concrete visual/a11y/perf improvement is demonstrated
+
+---
+
+## PART C — Integration & QA
+
+1) Integration test
+   - Confirm authoring and front-end outputs work together (no broken styles, attributes applied, layout correct).
+
+2) Quick QA
+   - Check semantic headings (H1 → H2 → H3).  
+   - Verify link targets and button labels are descriptive.  
+   - Re-test keyboard tab order across the page(s).
+
+**Acceptance criteria (Integration & QA)**
+- [ ] No layout breaks or console errors  
+- [ ] Semantic heading order  
+- [ ] Descriptive links/buttons  
+- [ ] Logical keyboard flow
+
+---
+
+## PART D — Documentation
+
+1) Author Notes (add to this file)
+   - Step-by-step authoring instructions (edit, update, reuse).  
+   - Guardrails (content limits, image ratios, naming).
+
+2) Developer Notes (add to this file)
+   - File paths edited and why.  
+   - Build steps and any attribute mappings used.
+
+**Acceptance criteria (Docs)**
+- [ ] Author Notes: clear and task-oriented  
+- [ ] Developer Notes: exact paths + commands + rationale
+
+---
+
+## Deliverables (save files here)
+
+- Screenshots in `week01/screenshots/`:
+  1. `week01_project_editor_<yourname>.png` — editor view  
+  2. `week01_project_published_<yourname>.png` — published page  
+  3. `week01_project_pr_<yourname>.png` — Pull Request page  
+  4. `week01_project_structure_<yourname>.png` — file/folder view showing edited files
+
+---
+
+## Git & Submission (no abbreviations)
+
+1) Branch
+   - Name: `<yourname>/week-01-project`
+
+2) Commit
+   - Message: `Week 01 Project: <short description>`
+
+3) Push and Pull Request
+   - Title: `[<YourName>][Week01] Project Submission`
+   - Description: public URL(s) + bullet list of changes (authoring + front-end).
+
+4) Submit the **PR URL** in the course thread.
+
+**Acceptance criteria (Submission)**
+- [ ] Branch named correctly  
+- [ ] Commit message descriptive  
+- [ ] PR title and description follow the format  
+- [ ] PR URL posted
+
+---
+
+## 🧠 AEM Alignment Summary
+
+| Area | WordPress / Front-End Activity | AEM Equivalent | Concept Demonstrated |
+|------|-------------------------------|----------------|----------------------|
+| Authoring | Pages/blocks + metadata | AEM Pages + Dialogs | Structured authoring |
+| Front-End | Edit `style.scss` / `edit.js` / `save.js`; build | AEM Clientlibs / HTL | Presentation & behavior |
+| Integration & QA | Combined checks + a11y | AEM Quality gates | Governance & standards |
+| DevOps | Branch → PR → Review | Cloud Manager pipeline | Collaboration & control |
+
+---
+
+## OS-Specific Paths
+
+- **Windows (Jeff):** `C:\Users\<yourname>\Local Sites\aem-lab\app\public\`  
+- **macOS (Mattie & Melanie):** `~/Local Sites/aem-lab/app/public/`
+
+---
+
+## ✅ Final Checklist
+- [ ] PART A complete  
+- [ ] PART B complete  
+- [ ] PART C complete  
+- [ ] PART D complete  
+- [ ] 4 screenshots saved with exact names  
+- [ ] Branch pushed, PR opened, URL posted
+
+---
+
+### 📝 Narrative (3–6 sentences)
+What you integrated, what you improved, and how this mirrors AEM’s Sites + Assets + Clientlibs flow.

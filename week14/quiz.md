@@ -1,31 +1,22 @@
 # Week 14 — Quiz
+**Theme:** Localization • Multilingual Content (Simulated)
 
-**Multiple Choice (auto-graded by answer key):**
-1) Which statement best describes this week's theme: **Localization • Multilingual content (simulated)**?
-   - A) It is unrelated to authoring or front-end work.
-   - B) It focuses on best practices and core concepts for this area.
-   - C) It only applies to server-side AEM features.
-   - D) It is not used in real projects.
+1. Concept mapping WP ↔ AEM
+   - A) A
+   - B) B
+   - C) C
+   - D) D
 
-2) In a Pull Request, what is the purpose of a review?
-   - A) Delete your code
-   - B) Provide feedback and ensure quality before merging
-   - C) Force merge without checks
-   - D) None of the above
+2. Feature mapping
+   - A) A
+   - B) B
+   - C) C
+   - D) D
 
-3) Where should screenshots be stored in this repository?
-   - A) Anywhere
-   - B) In the `screenshots/` folder in the relevant week
-   - C) In the root folder
-   - D) Do not store screenshots
+3. Best practice
+   - A) A
+   - B) B
+   - C) C
+   - D) D
 
-**Short Answer (manually reviewed):**
-4) In your own words, explain how this week's work (**Localization • Multilingual content (simulated)**) helps you operate as an AEM Author and/or Front-End Developer.
-
----
-
-## Your Answers
-1) 
-2) 
-3) 
-4)
+4. In 3–5 sentences, explain how this week’s concept in WordPress relates to AEM and why it matters to both authors and developers.

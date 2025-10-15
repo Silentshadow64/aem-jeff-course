@@ -1,9 +1,62 @@
-# Week 07 — Exercise
+# Week 07 — Exercise (Author + Front-End)
 
-Follow these steps carefully. Add screenshots to `screenshots/` and link them here.
+**Theme:** Front-End • Block Controls, Inspector, Attributes  
+*Goal:* Practice the separation of content (authoring) and presentation (front-end) by completing concrete tasks that parallel AEM concepts.
 
-1. Describe what you built or changed this week based on the theme: **Front-End • Block Controls, Inspector, Attributes**.
-2. If this week is authoring-focused, create or modify pages in LocalWP that reflect the lesson.
-3. If this week is front-end-focused, update your `wp-content/plugins/aem-blocks` plugin (or your chosen theme) with the required code.
-4. Document your steps in this file. Include before/after screenshots.
-5. Save this file, commit, and push your branch.
+---
+
+## 🧩 Authoring Tasks (complete all)
+
+1. **Inspector Controls**
+   - Add at least one toggle/select/color control.
+2. **Attributes**
+   - Bind ≥2 attributes affecting markup/classes; verify output.
+3. **Publish**
+   - Capture editor + published output.
+
+**Why this matters for AEM:**  
+Controls ⇢ Dialog fields
+Attributes ⇢ Sling Model/HTL props
+Saved output ⇢ HTL markup
+
+---
+
+## 💻 Front-End Understanding Tasks (document with screenshots)
+
+1. **Schema**
+   - Create `week07/attributes.md` (name/type/default/purpose); commit, push, PR; screenshot.
+
+**Why this matters for AEM:**  
+File structure ⇢ Component folders / Clientlibs  
+Commit/PR ⇢ Code promotion and deployment
+
+---
+
+## 📸 Deliverables
+- **Minimum 3 screenshots** in `week07/screenshots/`:
+  1. Authoring/editor view  
+  2. Published view  
+  3. PR page or relevant code/folder view  
+- Add a **3–6 sentence narrative** below.
+
+---
+
+## 🧠 AEM Alignment Summary
+| Area | WordPress Action | AEM Equivalent | Concept Demonstrated |
+|------|------------------|----------------|----------------------|
+| A | (from Deliverable A) | (map to AEM) | (what it proves) |
+| B | (from Deliverable B) | (map to AEM) | (what it proves) |
+| Commit/PR | Version control action | Promotion workflow | Collaboration |
+
+---
+
+## ✅ Checklist
+- [ ] Authoring tasks complete + screenshots  
+- [ ] Front-end tasks documented + PR screenshot added  
+- [ ] Narrative written  
+- [ ] Branch pushed and PR opened
+
+---
+
+### 📝 Narrative (3–6 sentences)
+*(Write your reflection here.)*

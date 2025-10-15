@@ -1,31 +1,22 @@
 # Week 02 — Quiz
+**Theme:** Authoring • Pages, Media, Metadata
 
-**Multiple Choice (auto-graded by answer key):**
-1) Which statement best describes this week's theme: **Gutenberg Authoring • Pages, Media, Metadata**?
-   - A) It is unrelated to authoring or front-end work.
-   - B) It focuses on best practices and core concepts for this area.
-   - C) It only applies to server-side AEM features.
-   - D) It is not used in real projects.
+1. WP Media metadata maps to…
+   - A) AEM Assets metadata
+   - B) AEM Policies
+   - C) AEM Dispatcher
+   - D) AEM Users
 
-2) In a Pull Request, what is the purpose of a review?
-   - A) Delete your code
-   - B) Provide feedback and ensure quality before merging
-   - C) Force merge without checks
-   - D) None of the above
+2. Featured Image in WP is like…
+   - A) Dialog image field
+   - B) Clientlibs
+   - C) OSGi config
+   - D) Replication agent
 
-3) Where should screenshots be stored in this repository?
-   - A) Anywhere
-   - B) In the `screenshots/` folder in the relevant week
-   - C) In the root folder
-   - D) Do not store screenshots
+3. Consistent slugs and titles help…
+   - A) SEO & clarity
+   - B) Only caching
+   - C) Nothing
+   - D) Randomness
 
-**Short Answer (manually reviewed):**
-4) In your own words, explain how this week's work (**Gutenberg Authoring • Pages, Media, Metadata**) helps you operate as an AEM Author and/or Front-End Developer.
-
----
-
-## Your Answers
-1) 
-2) 
-3) 
-4)
+4. In 3–5 sentences, explain how this week’s concept in WordPress relates to AEM and why it matters to both authors and developers.
