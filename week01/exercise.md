@@ -62,3 +62,6 @@ Commit/PR ⇢ Code promotion and deployment
 
 ### 📝 Narrative (3–6 sentences)
 *(Write your reflection here.)*
+
+## Participants
+Jeffrey Scott
